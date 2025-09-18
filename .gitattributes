@@ -1,0 +1,3 @@
+# Normalizaciones de línea finales para todos los archivos de texto
+# Evita problemas de fin de línea entre diferentes sistemas operativos (Windows vs Linux vs Mac)
+* text=auto eol=lf
