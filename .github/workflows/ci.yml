@@ -33,5 +33,6 @@ jobs:
 
       - name: Run tests
         env:
-          MPLBACKEND: Agg   # fuerza backend sin GUI
+          MPLBACKEND: Agg
+          PYTHONPATH: ${{ github.workspace }}/mpmetrics/src/mpmetrics
         run: pytest -q
