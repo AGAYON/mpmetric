@@ -1,6 +1,6 @@
 # mpmetrics 0.1.0
 
-Métricas robustas de tendencia central con ponderaciones adaptativas entre media, mediana, moda (opcional) y media recortada (opcional).
+Librería de métricas robustas de tendencia central con ponderaciones adaptativas entre media, mediana, moda (opcional) y media recortada (opcional).
 
 
 ## Uso rápido
