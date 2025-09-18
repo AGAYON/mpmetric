@@ -30,5 +30,5 @@ Issues = "https://github.com/TU_USUARIO/mpmetrics/issues"
 
 # layout con `src/`
 [tool.hatch.build.targets.wheel]
-packages = [{ include = "mpmetrics", from = "src" }]
+packages = [{"mpmetrics"}]
 
