@@ -27,7 +27,8 @@ jobs:
           pip install .
 
       - name: Set PYTHONPATH
-        run: echo "PYTHONPATH=${PYTHONPATH}:$(pwd)/mpmetrics" >> $GITHUB_ENV
+        run: echo "PYTHONPATH=$(pwd)" >> $GITHUB_ENV
+
 
       - name: Run tests
         env:
