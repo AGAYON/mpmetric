@@ -25,10 +25,10 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/TU_USUARIO/mpmetrics"
-Issues = "https://github.com/TU_USUARIO/mpmetrics/issues"
+Repository = "https://github.com/AGAYON/mpmetrics"
+Issues = "https://github.com/AGAYON/mpmetrics/issues"
 
 # layout con `src/`
 [tool.hatch.build.targets.wheel]
-packages = [{"src/mpmetrics"}]
+packages = ["src/mpmetrics"]
 
