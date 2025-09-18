@@ -26,6 +26,9 @@ jobs:
           pip install -r requirements.txt
           pip install .
 
+      - name: Set PYTHONPATH
+        run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)/mpmetrics" >> $GITHUB_ENV
+
       - name: Run tests
         env:
           MPLBACKEND: Agg   # fuerza backend sin GUI
