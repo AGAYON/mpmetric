@@ -1,0 +1,33 @@
+# Python / bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribución / build artefacts
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Entorno
+.mpmetric/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
