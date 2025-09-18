@@ -34,5 +34,5 @@ jobs:
       - name: Run tests
         env:
           MPLBACKEND: Agg
-          PYTHONPATH: ${{ github.workspace }}/mpmetrics/src/mpmetrics
+          PYTHONPATH: src
         run: pytest -q
