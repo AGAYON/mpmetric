@@ -28,7 +28,7 @@ jobs:
 
       - name: Set PYTHONPATH
         run: |
-          echo "PYTHONPATH=$(pwd)/src" >> $GITHUB_ENV
+          echo "PYTHONPATH=$(pwd)/mpmetrics/src/mpmetrics" >> $GITHUB_ENV
 
 
       - name: Run tests
